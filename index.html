@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>news</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="news, test, task">
+    <meta name="author" content="Efimov Kirill">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Портал Вашего города</h1>
+      Для просмотра новостей нажмите на иконку ниже. Чтобы увидеть или скрыть новости вы можете так же нажать Н или N
+  </div>
+    <!-- main container -->
+    <div class="main-container">
+      <div class="container" id="app">
+        <div class="navbar">
+            
+            <img class = "icon-news" id = "usElem" src="assets/img/news_icon/3890930-announce-horn-megaphone-news-trumpet_111179.svg" alt="news">
+            <div class = "count-news" id = "count"></div>
+        </div>
+        <div class="news" id="newsData">
+        </div>
+      </div>
+    </div>
+    <!-- add main js file -->
+    <script type="module" src="assets/js/widget_news/index.js"></script>
+  </body>
+</html>
