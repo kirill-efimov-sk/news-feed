@@ -41,6 +41,9 @@ body {
   flex-direction: column;
   justify-content: flex-end;
 }
+.news {
+  margin-top: 35px;
+}
 .icon-news {
   width: 50px;
   height: 50px;
@@ -65,8 +68,8 @@ body {
 }
 .user-news {
   text-align: start;
-  margin-bottom: 30px;
-  padding: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
   border-bottom: 5px solid #f15a22;
 }
 .user-news:nth-child(2n) {
@@ -103,7 +106,7 @@ h4 {
 h2 {
   display: flex;
   justify-content: start;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .state-news {
   color: #03270f;

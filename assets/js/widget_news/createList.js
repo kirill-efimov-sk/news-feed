@@ -14,7 +14,7 @@ export default function getListNews(data) {
   let dataNews;
   let userNews = new ListNews();
 
-  console.log('объект для рендера сформирован!');
+  console.log('обращение к объекту для рендера данных..');
   userNews.newsList = data;
   return dataNews = userNews.newsList;
 }
