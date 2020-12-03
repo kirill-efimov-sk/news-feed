@@ -31,6 +31,7 @@ body {
   column-gap: 0.85vw;
   grid-row-gap: 0.85vw;
   row-gap: 0.85vw;
+  margin-top: 35px;
 }
 .navbar {
   width: 100%;
