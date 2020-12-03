@@ -1,6 +1,7 @@
 # news-feed
 new project
 https://kirill-efimov-sk.github.io/news-feed/index.html
+!часть информации для определения логической цепочки пишется в консоль браузера
 
 Использоватись только нативный js и css
 
